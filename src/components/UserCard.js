@@ -7,6 +7,7 @@ export default class UserCard extends Component {
             usrImage: ''
         }
     }
+    
     componentDidMount() {
         this.getNewUser()
 
