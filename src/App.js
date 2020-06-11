@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import UserCard from './components/UserCard';
+import Stepper from './components/Stepper';
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
       <header className="App-header">
         <h1>Random User</h1>
       </header>
+      <div>
+        <Stepper/>
+      </div>
+      
       <div>
         <div>
           <UserCard />
